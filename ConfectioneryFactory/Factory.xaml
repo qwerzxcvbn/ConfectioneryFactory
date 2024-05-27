@@ -1,0 +1,29 @@
+﻿<Window x:Class="ConfectioneryFactory.Factory"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ConfectioneryFactory"
+        mc:Ignorable="d"
+        Title="Factory" Height="400" Width="800">
+    <Grid>
+        <StackPanel>
+            <TextBlock Height="40" Text="Кондитерский завод" FontSize="30" HorizontalAlignment="Center"></TextBlock>
+            <TextBlock Text="Должность: " HorizontalAlignment="Left" FontSize="20" x:Name="Depar"  Width="300"></TextBlock>
+            <TextBlock Text="ФИО: " HorizontalAlignment="Left" FontSize="20" x:Name="fioB" Width="300"></TextBlock>
+            <Button Height="30" Width="200" HorizontalAlignment="Right" Margin="0 -65 0 0" Content="Подсчет возможной продукции" x:Name="Product" Click="Product_Click"></Button>
+            <Button Height="30" Width="200" HorizontalAlignment="Right" Margin="0 -15 0 0" Content="Подсчёт логистики" x:Name="Log" Click="Log_Click"></Button>
+        </StackPanel>
+        <StackPanel Height="250" VerticalAlignment="Bottom">
+            <DataGrid Name="StockGrid" AutoGenerateColumns="False" IsReadOnly="True">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Binding="{Binding Path=Munka}" MinWidth="160" MaxWidth="200" Header="Крупа манная (грамм)"></DataGridTextColumn>
+                    <DataGridTextColumn Binding="{Binding Path=Butter}" MinWidth="150" MaxWidth="200" Header="Масло сливочное (грамм)"></DataGridTextColumn>
+                    <DataGridTextColumn Binding="{Binding Path=Sugar}" MinWidth="150" MaxWidth="200" Header="Сахар (грамм)"></DataGridTextColumn>
+                    <DataGridTextColumn Binding="{Binding Path=Cocoa}" MinWidth="150" MaxWidth="200" Header="Какао-порошок (ст. ложки)"></DataGridTextColumn>
+                    <DataGridTextColumn Binding="{Binding Path=Water}" MinWidth="150" MaxWidth="200" Header="Вода (мл)"></DataGridTextColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,33 @@
+﻿<Window x:Class="ConfectioneryFactory.ProductCalcul"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ConfectioneryFactory"
+        mc:Ignorable="d"
+        Title="ProductCalcul" Height="450" Width="600">
+    <Grid>
+        <StackPanel>
+            <TextBlock Text="Расчет возможной продукции" FontSize="30" HorizontalAlignment="Center"></TextBlock>
+            
+            <TextBlock Text="Кол-во манной крупы: "></TextBlock>
+            <TextBox Name="manka" Margin="0 0 0 10"></TextBox>
+
+            <TextBlock Text="Кол-во сливочного масла"></TextBlock>
+            <TextBox Name="oil" Margin="0 0 0 10"></TextBox>
+
+            <TextBlock Text="Кол-во сахара"></TextBlock>
+            <TextBox Name="sugar" Margin="0 0 0 10"></TextBox>
+
+            <TextBlock Text="Кол-во какао-порошка"></TextBlock>
+            <TextBox Name="cocoa" Margin="0 0 0 10"></TextBox>
+
+            <TextBlock Text="Кол-во воды"></TextBlock>
+            <TextBox Name="water" Margin="0 0 0 30"></TextBox>
+
+            <TextBlock Text="Результат в упаковках (6 шт)"></TextBlock>
+            <TextBox Name="result"></TextBox>
+            <Button Height="20" Content="Расчитать" Click="Result_Click"></Button>
+        </StackPanel>
+    </Grid>
+</Window>
