@@ -27,15 +27,15 @@
 В дальнейшем, все записи отсюда выгружаются в приложение.
 
 # Скриншоты приложения:
-![Окно авторизации](https://github.com/qwerzxcvbn/ConfectioneryFactory/blob/main/Image/Screenshot_8.png)
+![Окно авторизации](https://github.com/qwerzxcvbn/ConfectioneryFactory/blob/main/Image/Screenshot_8.png) </br>
 **Окно авторизации**
 </br> </br> </br>
-![Главное окно](https://github.com/qwerzxcvbn/ConfectioneryFactory/blob/main/Image/Screenshot_9.png)
+![Главное окно](https://github.com/qwerzxcvbn/ConfectioneryFactory/blob/main/Image/Screenshot_9.png) </br>
 **Главное окно**
 </br> </br> </br>
-![Окно подсчета продукции](https://github.com/qwerzxcvbn/ConfectioneryFactory/blob/main/Image/Screenshot_10.png)
+![Окно подсчета продукции](https://github.com/qwerzxcvbn/ConfectioneryFactory/blob/main/Image/Screenshot_10.png) </br>
 **Окно подсчета продукции**
 </br> </br> </br>
-![Окно подсчета логистики](https://github.com/qwerzxcvbn/ConfectioneryFactory/blob/main/Image/Screenshot_6.png)
+![Окно подсчета логистики](https://github.com/qwerzxcvbn/ConfectioneryFactory/blob/main/Image/Screenshot_6.png) </br>
 **Окно подсчета логистики**
 </br> </br> </br>
