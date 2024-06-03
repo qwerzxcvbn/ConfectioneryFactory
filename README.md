@@ -28,14 +28,14 @@
 
 # Скриншоты приложения:
 ![Окно авторизации](https://github.com/qwerzxcvbn/ConfectioneryFactory/blob/main/Image/Screenshot_8.png)
-## Окно авторизации
+**Окно авторизации**
 </br> </br> </br>
 ![Главное окно](https://github.com/qwerzxcvbn/ConfectioneryFactory/blob/main/Image/Screenshot_9.png)
-## Главное окно
+**Главное окно**
 </br> </br> </br>
 ![Окно подсчета продукции](https://github.com/qwerzxcvbn/ConfectioneryFactory/blob/main/Image/Screenshot_10.png)
-## Окно подсчета продукции
+**Окно подсчета продукции**
 </br> </br> </br>
 ![Окно подсчета логистики](https://github.com/qwerzxcvbn/ConfectioneryFactory/blob/main/Image/Screenshot_6.png)
-## Окно подсчета логистики
+**Окно подсчета логистики**
 </br> </br> </br>
